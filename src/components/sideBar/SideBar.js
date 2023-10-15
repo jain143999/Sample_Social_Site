@@ -16,16 +16,16 @@ function SideBar() {
   return (
     <div className='sidebar-containers'>
 
-        <div ><GiHamburgerMenu/></div>
-        <div ><LuPaperclip/></div>
-        <div ><BiTask/></div>
-        <div ><BsCalendarDate/></div>
-        <div ><BsCalendar4Week/></div>
-        <div ><FaBalanceScaleRight/></div>
-        <div ><MdOutlineAddIcCall/></div>
-        <div ><GrAnnounce/></div>
-        <div ><RiCustomerService2Line/></div>
-        <div ><IoPricetagsOutline/></div>
+        <div className='sidebar-container-first' ><GiHamburgerMenu/></div>
+        <div className='sidebar-container-first'><LuPaperclip/></div>
+        <div className='sidebar-container-second'><BiTask/></div>
+        <div className='sidebar-container-second'><BsCalendarDate/></div>
+        <div className='sidebar-container-second'><BsCalendar4Week/></div>
+        <div className='sidebar-container-second'><FaBalanceScaleRight/></div>
+        <div className='sidebar-container-second'><MdOutlineAddIcCall/></div>
+        <div className='sidebar-container-second'><GrAnnounce/></div>
+        <div className='sidebar-container-second'><RiCustomerService2Line/></div>
+        <div className='sidebar-container-second'><IoPricetagsOutline/></div>
         </div>
   )
 }

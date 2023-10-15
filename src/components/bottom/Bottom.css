@@ -26,7 +26,6 @@
 .mobile{
     display: flex;
     margin-top: 50px;
-    margin-left: 60px;
     width: 100%;
     justify-content: center;
   }
@@ -47,11 +46,15 @@
     .sidebar-container{
         margin-right: 17px;
     }
+    .mobile{
+        margin-left: 60px;
+      }
   }
 
 @media screen and (min-width: 570px) and (max-width: 767px) {
     .mobile{
         display: block;
+        margin-left: 60px;
       }
       .sidebar-container{
         margin-right: 17px;
