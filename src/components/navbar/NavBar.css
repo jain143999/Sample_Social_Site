@@ -1,0 +1,70 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: #fff;
+  }
+  
+  .left-icons,
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 1rem;
+    color: #E71A73;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 12px;
+  }
+  
+  .nav-button {
+    padding: 5px 10px;
+    background-color:#E71A73;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+
+  }
+  .hamburger{
+    display: none;
+  }
+
+  .mobile-Header-content{
+    background-color: rgb(237, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 992px) {
+    .search-box,
+    .right-icons {
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mobileCenterMenu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+  

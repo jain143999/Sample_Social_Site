@@ -1,0 +1,148 @@
+.streamContainer{
+    width: 840px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+.streamHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-card {
+    display: flex;
+  }
+  
+  .streamLeft-section {
+    /* flex: 1; */
+    margin-right: 2rem
+  }
+  
+  .streamLeft-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: 1rem;
+  }
+  
+  .streamRight-section {
+    flex: 3;
+  }
+  
+  .actions {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .comment, .share {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .comment:hover, .share:hover {
+    text-decoration: underline;
+  }
+  
+  .action-count{
+    margin-top: 10px;
+    display: flex;
+    
+  }
+
+  .streamRight-section h3{
+    margin-bottom: 0px;
+  }
+  .streamRight-section p{
+    margin: 5px 0px 5px 0px;
+  }
+  .flex{
+    display: flex;
+  }
+
+  .stream-actions-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .stream-date{
+    opacity: 0.7;
+    font-size: 11px;
+  }
+  .ellpsis{
+    margin-top: 23px;
+  }
+  .streamHeading{
+    margin: 0px;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1450px) {
+    .streamContainer{
+      width: 640px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: white;
+  }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .streamContainer{
+      width: 480px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: white;
+  }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .streamContainer{
+      width: 350px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: white;
+  }}
+
+  @media screen and (min-width: 570px) and (max-width: 767px) {
+    .streamContainer{
+      width: 450px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: white;
+  }
+  }
+
+  @media screen and (max-width: 570px) {
+    .streamContainer{
+      width: 315px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: white;
+  }
+  .streamLeft-section {
+    margin-right: 0.5rem
+  }
+  .comment, .share {
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+  .stream-actions-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+  }
+  }

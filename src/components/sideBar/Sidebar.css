@@ -1,0 +1,27 @@
+.sidebar-containers{
+width: 30px;
+height:100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1.5rem;
+position: fixed;
+padding: 10px;
+background-color: #46474B;
+margin-top: 40px;
+}
+
+@media screen and (min-width: 570px) and (max-width: 767px) {
+    .sidebar-containers{
+        width: 30px;
+        height:100vh;
+        }
+  }
+
+  @media screen and (max-width: 570px) {
+    .sidebar-containers{
+        width: 30px;
+        height:100vh;
+        display: none;
+        }
+  }

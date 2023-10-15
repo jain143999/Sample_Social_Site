@@ -1,0 +1,13 @@
+.App{
+  /* background-color: #E9EAED; */
+
+}
+.navbar-container{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.content-container{
+  margin-top: 30px;
+}

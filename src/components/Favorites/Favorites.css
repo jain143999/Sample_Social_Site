@@ -1,0 +1,92 @@
+
+.row-container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 380px;
+    background-color: white;
+  }
+  
+  .row {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .favorite-container{
+    width: 400px;
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+  }
+
+  .fav-btn{
+    color: black;
+    background-color: white;
+   border: none;
+   font-size: 14px;
+   flex: 1;
+    border-radius: 0;
+    padding-bottom: 10px;
+  }
+  .fav-name{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .fav-company{
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+  }
+  .fav-discription{
+    font-size: 12px;
+    margin: 0px;
+  }
+  .fav-link{
+    font-size: 12px;
+    margin: 7px 0px;
+  }
+
+  .selecten-fav {
+    border-bottom: 2px solid #E92E7F;
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .row-container {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+      background-color: white;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .row-container {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      width: 270px;
+      background-color: white;
+    }
+  }
+
+  @media screen and (min-width: 570px) and (max-width: 767px) {
+    .row-container {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      width: 450px;
+      background-color: white;
+    }
+  }
+
+@media screen and (max-width: 570px) {
+  .row-container {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 315px;
+    background-color: white;
+  }
+}
